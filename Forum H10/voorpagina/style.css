@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: rgb(53, 53, 53);
+}
+.Topbanner img{
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 150px;
+  filter: brightness(50%);
+}
+header{
+  height: 170px;
+}
+.textheader ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  font-size: 20px;
+  gap: 30px;
+  text-decoration: none;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(+110%);
+}
+
+.headerrechts a{
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.headerlinsks{
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  width: 37%;
+  height: 60px;
+}
+.headerrechts {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  width: 37%;
+  height: 150px;
+}
+
+.button-50 {
+  background-color: rgb(255, 255, 255);
+  background-image: none;
+  border: 1px solid rgb(255, 249, 249);
+  border-radius: 4px;
+  box-shadow: rgb(66, 0, 0) 4px 4px 0 0, #000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: rgb(66, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+.Img {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  left: 7%;
+  margin-left: -65px;
+}
+
+.lastp {
+  position: absolute;
+  background-color: #fff;
+  right: 0;
+  margin-top: 10%;
+  width: 15%;
+  height: 50%;
+  border-radius: 10px;
+  margin-right: 15px;
+  max-height: 440px;
+}
+.lastpost h1 {
+  font-size: 25px;
+}
+.lastpost {
+  list-style-type: none;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+
+  font-size: 24px;
+  margin-top: 40px;
+
+}
+.lastpost li{
+  border-top: solid;
+  padding: 20px 30px;
+}
+.lastpost h1{
+  padding-bottom: 20px;
+  top: 0;
+}
+.lastpost a {
+  text-decoration: none;
+  color: #000;
+}
+.lastpost a:hover {
+  opacity: 1;
+  color: #7c2a2a;
+}
+.middencontent {
+  display: block;
+  position: relative;
+  background: #a8a8a8;
+  height: 400px;
+  width: 750px;
+  margin-left: 100px;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+
+footer {
+  background-color: #232424b4;
+  line-height: 24px;
+  color: white;
+}
+
+footer .onder {
+  background-color: #141817;
+  padding: 16px;
+  padding-top: 48px;
+  clip-path: polygon(0% 5%, 15% 0%, 100% 10%, 100% 100%, 0% 100%);
+}
+
+footer .content {
+  max-width: 600px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 36px;
+  margin-top: 30px;
+}
+
+footer .content a {
+  display: block;
+  padding-top: 33px;
+  padding-block: 12px;
+  color: white;
+  opacity: 0.45;
+  font-size: 15px;
+}
+
+footer .content a:hover {
+  opacity: 1;
+  color: #7c2a2a;
+  font-size: 14px;
+}
+
+footer input {
+  border-style: solid;
+  line-height: 49px;
+  padding: 12px 16px;
+  font-size: 2rem;
+  width: 100%;
+  margin-block: 8px;
+  border-radius: 8px;
+  border-width: 2px;
+}
+
+footer .social {
+  margin-block: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-gap: 16px;
+}
+
+footer .social i {
+  font-size: 20px;
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #83838331;
+  border-radius: 8px;
+  width: 40px;
+}
+.headerb{
+  height: 100px;
+}
+
+footer .social i:hover {
+  color: #7c2a2a;
+  border-color: #7c2a2a;
+  box-shadow: 0px 0px 16px inset #83838331;
+}
+
+footer .notice strong {
+  color: #7c2a2a;
+  text-transform: uppercase;
+}
+section {
+  max-width: 650px;
+}
+.backgroundmobel {
+  display: none;
+}
